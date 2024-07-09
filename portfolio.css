@@ -112,3 +112,42 @@ span{
     font-size:18px;
 }
 /* Contact Section */
+.contact{
+    color:white;
+    background-color: black;
+    margin-top: 30px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact h2{
+    text-align: center;
+    font-size:35px;
+    margin-top:10px;
+}
+.contact .input-box {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+}
+.contact form label {
+    font-size: 18px;
+}
+.contact form input,
+.contact form textarea {
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+.contact .button {
+    border: none;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+

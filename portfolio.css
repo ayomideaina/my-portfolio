@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration:none;
 }
+body{
+    background-color: white;
+}
 /* header */
 .header{
     position:fixed;
@@ -93,10 +96,19 @@ span{
 }
 .skill-content h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 38px;
     /* background-color: pink; */
 }
 .skill-content p{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
+    margin:10px 10px 7px 15px;
 }
+.skill-content ul{
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    font-size:18px;
+}
+/* Contact Section */

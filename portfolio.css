@@ -14,7 +14,7 @@ body{
     left:0;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.85);
-    padding: 30px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -125,7 +125,7 @@ span{
 .contact h2{
     text-align: center;
     font-size:35px;
-    margin-top:10px;
+    margin:10px 0px 15px 0px;
 }
 .contact .input-box {
     display:flex;
@@ -149,5 +149,21 @@ span{
     margin-top: 10px;
     background-color: dodgerblue;
     color: white;
+    cursor: pointer;
 }
-
+.socials ul{
+    margin:25px 0px;
+    display: flex;
+    gap:15px;
+    list-style: none;
+    text-align: center;
+}
+.socials a{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.socials a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}

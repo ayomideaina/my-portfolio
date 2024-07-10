@@ -111,6 +111,38 @@ span{
     gap:30px;
     font-size:18px;
 }
+/* Project section */
+.myprojects {
+    /* background-color: rgba(223, 219, 219, 0.897); */
+    padding: 15px;
+    margin: 15px 15px;
+}
+.myprojects h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+.project-one{
+    width:200px;
+    height: 250px;
+    border:1px solid #b8b7b7;
+}
+
+ .project-two{
+    width: 200px;
+    height:250px;
+    border: 1px solid #b8b7b7;
+}
+.project-three {
+    width: 200px;
+    height:250px;
+    border: 1px solid #b8b7b7;
+}
+.myprojects span {
+    display: flex;
+    gap:60px;
+    justify-content: center;
+}
 /* Contact Section */
 .contact{
     color:white;
@@ -166,4 +198,11 @@ span{
 .socials a:hover {
     color: dodgerblue;
     text-decoration: underline;
+}
+.footer p{
+    color:dodgerblue;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 18px;
+    font-weight: 900;
 }

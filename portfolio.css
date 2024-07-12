@@ -52,7 +52,7 @@ span{
     padding: 25px 35px;
 }
 .content h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 .image img{
     border-radius: 50%;
@@ -77,10 +77,11 @@ span{
     text-align: left;
     color:white;
     font-size: 35px;
+    margin-bottom: 15px;
 }
 .about-content h3 {
     color:white;
-    font-size:55px;
+    font-size:30px;
 }
 .about-content p {
     color: white;
@@ -96,13 +97,13 @@ span{
 }
 .skill-content h2 {
     text-align: center;
-    font-size: 38px;
+    font-size: 35px;
     /* background-color: pink; */
 }
 .skill-content p{
     font-size: 28px;
     font-weight: 600;
-    margin:10px 10px 7px 15px;
+    margin:10px 10px 7px 20px;
 }
 .skill-content ul{
     padding:10px;
@@ -111,38 +112,46 @@ span{
     gap:30px;
     font-size:18px;
 }
+.skill-content h3{
+    margin: 20px;
+}
 /* Project section */
-.myprojects {
-    /* background-color: rgba(223, 219, 219, 0.897); */
+.project {
+    /* background-color: black; */
+    max-width:100%;
     padding: 15px;
     margin: 15px 15px;
+
 }
-.myprojects h2 {
+.project h2 {
     padding-bottom: 15px;
     text-align: center;
     font-size: 35px;
 }
-.project-one{
-    width:200px;
+.project-images{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.project-image img{
+    width:80%;
     height: 250px;
-    border:1px solid #b8b7b7;
+    object-position: cover;
+    object-fit: contain;
+}
+.project-image p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    cursor: pointer;
+    color: dodgerblue;
 }
 
- .project-two{
-    width: 200px;
-    height:250px;
-    border: 1px solid #b8b7b7;
-}
-.project-three {
-    width: 200px;
-    height:250px;
-    border: 1px solid #b8b7b7;
-}
-.myprojects span {
-    display: flex;
-    gap:60px;
-    justify-content: center;
-}
+
 /* Contact Section */
 .contact{
     color:white;
@@ -152,7 +161,6 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .contact h2{
     text-align: center;
@@ -164,6 +172,9 @@ span{
     flex-direction: column;
     gap:15px;
     justify-content: center;
+}
+.contact form {
+    width: 300px;
 }
 .contact form label {
     font-size: 18px;
@@ -198,6 +209,9 @@ span{
 .socials a:hover {
     color: dodgerblue;
     text-decoration: underline;
+}
+.socials h3{
+    margin:20px;
 }
 .footer p{
     color:dodgerblue;

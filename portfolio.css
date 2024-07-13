@@ -14,7 +14,7 @@ body{
     left:0;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.85);
-    padding: 25px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -52,7 +52,8 @@ span{
     padding: 25px 35px;
 }
 .content h2{
-    font-size: 35px;
+    margin-top: 10px;
+    font-size: 30px;
 }
 .image img{
     border-radius: 50%;
@@ -65,43 +66,43 @@ span{
     align-items: center;
     padding:30px 28px;
     gap: 30px;
+    width: 100%;
     background-color:black;
 }
 .about-img img{
     position: relative;
     border-radius: 50%;
     width: 500px;
-    box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px dodgerblue;
 }
 .about-content h2 {
     text-align: left;
     color:white;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 .about-content h3 {
     color:white;
-    font-size:30px;
+    font-size:28px;
 }
 .about-content p {
     color: white;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 16px;
     line-height:1.2;
     margin: 10px 0px 3px;
 }
 /* Skills Section */
 .skills {
+    width: 100%;
     margin:0px 15px;
     padding: 20px;
 }
 .skill-content h2 {
     text-align: center;
-    font-size: 35px;
-    /* background-color: pink; */
+    font-size: 30px;
 }
 .skill-content p{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
     margin:10px 10px 7px 20px;
 }
@@ -110,50 +111,44 @@ span{
     display: flex;
     flex-wrap: wrap;
     gap:30px;
-    font-size:18px;
+    font-size:16px;
 }
 .skill-content h3{
     margin: 20px;
 }
 /* Project section */
 .project {
-    /* background-color: black; */
     max-width:100%;
     padding: 15px;
-    margin: 15px 15px;
+    margin: 10px 15px;
 
 }
 .project h2 {
     padding-bottom: 15px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 .project-images{
+    background-color:rgb(236, 229, 221);
     display: flex;
     gap:30px;
     justify-content: center;
     align-items: center;
-    margin-bottom:50px;
+    margin-bottom:30px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .project-image img{
     width:80%;
-    height: 250px;
+    height: 200px;
+    margin-left: 30px;
     object-position: cover;
     object-fit: contain;
 }
-.project-image p{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 20px;
-    cursor: pointer;
-    color: dodgerblue;
-}
-
 
 /* Contact Section */
 .contact{
+    width: 100%;
     color:white;
     background-color: black;
     margin-top: 30px;
@@ -164,7 +159,7 @@ span{
 }
 .contact h2{
     text-align: center;
-    font-size:35px;
+    font-size:30px;
     margin:10px 0px 15px 0px;
 }
 .contact .input-box {

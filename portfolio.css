@@ -17,10 +17,10 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 .logo{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     font-weight: 500px;
     /* font-family; */
@@ -33,10 +33,9 @@ span{
     color: dodgerblue;
 }
 .navbar a{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
-    font-weight: 400;
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
 .navbar a:hover {
     color: dodgerblue;
@@ -45,11 +44,15 @@ span{
 /* Home Section */
 .home{
     width: 100%;
-    min-height: 100vp;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 25px 35px;
+    margin-top: 60px;
+}
+.content {
+    margin:0 35px;
 }
 .content h2{
     margin-top: 10px;
@@ -64,7 +67,7 @@ span{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:30px 28px;
+    padding:30px 25px;
     gap: 30px;
     width: 100%;
     background-color:black;
@@ -75,21 +78,19 @@ span{
     width: 500px;
     box-shadow: 0 0 25px dodgerblue;
 }
+.about-content{
+    color:white;
+    margin: 0px 30px;
+}
 .about-content h2 {
     text-align: left;
-    color:white;
     font-size: 30px;
     margin-bottom: 15px;
 }
-.about-content h3 {
-    color:white;
-    font-size:28px;
-}
 .about-content p {
-    color: white;
-    font-size: 16px;
-    line-height:1.2;
-    margin: 10px 0px 3px;
+    font-size: 18px;
+    line-height:1.5;
+    margin: 7px 0px 3px;
 }
 /* Skills Section */
 .skills {
@@ -103,8 +104,9 @@ span{
 }
 .skill-content p{
     font-size: 20px;
-    font-weight: 600;
-    margin:10px 10px 7px 20px;
+    font-weight: 800;
+    margin:10px 0px  20px;
+    text-align: left;
 }
 .skill-content ul{
     padding:10px;
@@ -189,6 +191,9 @@ span{
     color: white;
     cursor: pointer;
 }
+.socials {
+    text-align: center;
+}
 .socials ul{
     margin:25px 0px;
     display: flex;
@@ -214,4 +219,77 @@ span{
     padding: 10px 12px;
     font-size: 18px;
     font-weight: 900;
+}
+
+/* for large devices*/
+@media  (max-width:900px){
+    .image img{
+        width: 300px;
+    }
+    .about-img img {
+        width:350px;
+    }
+    .skill-content{
+
+    }
+}
+
+/* for medium devices (tablet) */
+@media (max-width:768px){
+    .image img{
+        border-radius: 50%;
+        width: 300px;
+    }
+    .content h1, h2{
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-img img{
+        width: 300px;
+    }
+    }
+/* for small devices */
+@media (max-width:576px) {
+    .logo{
+        font-size: 17px;
+        display: none;
+    }
+    .navbar{
+        display:flex;
+        margin-left: -10px;
+    }
+    /* home */
+    .home{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .content h2{
+        font-size: 16px;
+    }
+    .image img{
+        border-radius: 50%;
+        width: 200px;
+    }
+    /* about section */
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about h2{
+        text-align: center;
+    }
+
+    .about-img img{
+        max-width: 200px;
+    }
+    .project-images{
+        flex-direction: column;
+    }
+    .contact form{
+        width: 200px;
+        margin: 0 auto;
+    }
 }

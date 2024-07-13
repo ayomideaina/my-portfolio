@@ -116,7 +116,7 @@ span{
     font-size:16px;
 }
 .skill-content h3{
-    margin: 20px;
+    margin: 20px 0px;
 }
 /* Project section */
 .project {
@@ -229,9 +229,6 @@ span{
     .about-img img {
         width:350px;
     }
-    .skill-content{
-
-    }
 }
 
 /* for medium devices (tablet) */
@@ -259,7 +256,10 @@ span{
     }
     .navbar{
         display:flex;
-        margin-left: -10px;
+        margin-left:-10px;
+    }
+    .navbar a{
+        font-size: 13px;
     }
     /* home */
     .home{

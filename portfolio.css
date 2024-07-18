@@ -147,6 +147,18 @@ span{
     object-position: cover;
     object-fit: contain;
 }
+.project-images p{
+    text-align: center;
+    margin: 10px 70px;
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 10px;
+    /* width:50%; */
+}
+.project-images p a{
+    color: white;
+    font-weight: 500;
+}
 
 /* Contact Section */
 .contact{
@@ -251,17 +263,16 @@ span{
 /* for small devices */
 @media (max-width:576px) {
     .logo{
-        font-size: 17px;
+        font-size: 16px;
         display: none;
     }
     .navbar{
         display:flex;
-        margin-left:-10px;
+        margin-left:-10x;
     }
     .navbar a{
-        font-size: 13px;
+        font-size: 16px;
     }
-    /* home */
     .home{
         flex-direction: column-reverse;
         text-align: center;
@@ -273,7 +284,6 @@ span{
         border-radius: 50%;
         width: 200px;
     }
-    /* about section */
     .about {
         flex-direction: column;
         text-align: center;
@@ -285,6 +295,9 @@ span{
     .about-img img{
         max-width: 200px;
     }
+    .skill-content ul, li{
+        flex-direction: column;
+    }
     .project-images{
         flex-direction: column;
     }
@@ -292,4 +305,17 @@ span{
         width: 200px;
         margin: 0 auto;
     }
+}
+
+/* for smaller devices */
+@media(max-width:386px){
+.navbar{
+    display:flex;
+}
+.navbar a{
+    font-size: 13px;
+}
+.skill-content ul, li{
+    flex-direction: column;
+}
 }

@@ -67,7 +67,7 @@
         flex-direction: column;
     }
     .contact form{
-        width: 200px;
+        width: 250px;
         margin: 0 auto;
     }
 }
@@ -79,6 +79,10 @@
 }
 .navbar a{
     font-size: 13px;
+}
+
+.about-content p {
+    letter-spacing: 0px;
 }
 .skill-content ul, li{
     flex-direction: column;

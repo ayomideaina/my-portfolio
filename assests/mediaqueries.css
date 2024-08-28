@@ -33,7 +33,7 @@
     }
     .navbar{
         display:flex;
-        margin-left:-10x;
+        margin-left:-15px;
     }
     .navbar a{
         font-size: 16px;

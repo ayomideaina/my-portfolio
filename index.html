@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
-        <link rel="stylesheet" href="portfolio.css"/>
-        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="stylesheet" href="assests/portfolio.css"/>
+        <link rel="stylesheet" href="assests/mediaqueries.css">
     </head>
     <body>
         <!-- Header -->
@@ -22,18 +22,18 @@
         <!-- Home Section -->
         <section id="home" class="home">
             <div class="content">
-                <p>Hi, I'm </p>
-                <h1><span>Aina Ayomide</span></h1>
+                <p>Hi,</p>
+                <h1>I'm <span>Aina Ayomide</span></h1>
                 <h2>an Aspiring Frontend Developer</h2>
             </div>
             <div class="image">
-                <img src="Ayo.jpg" alt="my image">
+                <img src="assests/img/Ayo.jpg" alt="my image">
             </div>
         </section>
         <!-- About Section -->
         <section id="about" class="about">
             <div class="about-img">
-                <img src="Ayo.jpg" alt="my image">
+                <img src="assests/img/Ayo.jpg" alt="my image">
             </div>
             <div class="about-content">
                 <h2 class="heading">About <span>Me</span></h2>
@@ -43,7 +43,7 @@
                     working towards mastering modern Frontend technologies. I also possess soft 
                     skills that enable me to adapt quickly and collaborate effectively with others.
                 </p>
-                <h3><a href="Ayo.docx" target="_blank">Download CV</a></h3>
+                <h3><a href="assests/Ayo.docx" target="_blank">Download CV</a></h3>
             </div>
         </section>
         <section id="skills" class="skills">
@@ -68,22 +68,22 @@
             </div>
         </section>
         <!-- Project section -->
-         <section id="project" class="project">
-                <h2>My Projects</h2>
-                <div class="project-images">
-                    <div class="project-image">
-                        <img src="perfume.PNG">
-                        <p><a href="https://product-html-1ozbewqpl-aina-ayomides-projects.vercel.app/" target="_blank">read more</a></p>
-                    </div>
-                    <div class="project-image">
-                        <img src="Barbers page.PNG">
-                        <p><a href="https://barbing-landing-page.vercel.app/" target="_blank">read more</a></p>
-                    </div>
-                    <div class="project-image">
-                        <img src="About us.PNG">
-                        <p><a href="https://responsive-website-delta-two.vercel.app/" target="_blank">read more</a></p>
-                    </div>
-         </section>
+        <section id="project" class="project">
+            <h2>My Projects</h2>
+            <div class="project-images">
+                <div class="project-image">
+                    <img src="assests/img/perfume.PNG">
+                    <p><a href="https://product-html-1ozbewqpl-aina-ayomides-projects.vercel.app/" target="_blank">read more</a></p>
+                </div>
+                <div class="project-image">
+                    <img src="assests/img/Barbers page.PNG">
+                    <p><a href="https://barbing-landing-page.vercel.app/" target="_blank">read more</a></p>
+                </div>
+                <div class="project-image">
+                    <img src="assests/img/About us.PNG">
+                    <p><a href="https://responsive-website-delta-two.vercel.app/" target="_blank">read more</a></p>
+                </div>
+        </section>
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <div class="contact-content">
@@ -94,24 +94,39 @@
                         <input type="text" id="name" placeholder="Full Name">
                         <label for="email">Email</label>
                         <input type="email" id="email" placeholder="Your Email">
-                        <textarea></textarea>
+                        <textarea name="" cols="30" rows="10" placeholder="Your message"></textarea>
                     </div>
                     <input class="button" type="submit" value="Send message">
-                </form>
-                <div class="socials">
-                    <h3>OR</h3>
-                    <ul>
-                        <li><a href="mailto:joytife8@gmail.com" target="_blank">Email</a></li>
-                        <li><a href="https://x.com/aina_ayomidee" target="_blank">X</a></li>
-                        <li><a href="https://www.linkedin.com/in/ayomide-aina" target="_blank">linkedIn</a></li>
-                        <li><a href="https://hashnode.com/@ainaayomide" target="_blank">hashnode</a></li>
-                        <li><a href="https://github.com/ayomideaina" target="_blank">github</a></li>
-                    </ul>    
-                </div>
+                </form>             
             </div>
         </section>
         <footer class="footer">
-            <p>&copy; 2024 My Portfolio</p>
+            <div class="socials">
+                <a href="mailto:joytife8@gmail.com" target="_blank">
+                    <img src="assests/img/mail.png" width="30px">
+                </a>
+                <a href="https://x.com/aina_ayomidee" target="_blank">
+                    <img src="assests/img/twitter.png" width="30px">
+                </a>
+                <a href="https://www.linkedin.com/in/ayomide-aina" target="_blank">
+                    <img src="assests/img/linkedin (1).png" width="30px">
+                </a>
+                <a href="https://hashnode.com/@ainaayomide" target="_blank">
+                    <img src="assests/img/google.png" width="30px">
+                </a>
+                <a href="https://github.com/ayomideaina" target="_blank">
+                    <img src="assests/img/github.png" width="30px">
+                </a>
+            </div>
+            <ul class="list">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">&copy; 2024 Ayomide | All Rights Reserved </p>
         </footer>
     </body>
 </html>

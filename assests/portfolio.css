@@ -6,6 +6,7 @@
 }
 body{
     background-color: white;
+    /* overflow-x: hidden; */
 }
 /* header */
 .header{
@@ -14,7 +15,7 @@ body{
     left:0;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.85);
-    padding: 20px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +24,12 @@ body{
     font-size: 25px;
     color: white;
     font-weight: 500px;
+    transition: 0.3s ease;
 }
 .logo:hover{
     color:dodgerblue;
     text-shadow: 0 0 25px dodgerblue;
+    transform: scale(1.1);
 }
 span{
     color: dodgerblue;
@@ -35,6 +38,7 @@ span{
     font-size: 16px;
     color: white;
     margin: 0px 15px;
+    transition: 0.3s;
 }
 .navbar a:hover {
     color: dodgerblue;
@@ -61,6 +65,9 @@ span{
 .content h1{
     margin: 15px 0px;
     font-size: 30px;
+}
+.content h2{
+    font-size: 25px;
 }
 .image img{
     border-radius: 50%;
@@ -95,7 +102,7 @@ span{
 .about-content p {
     font-size: 19px;
     line-height:1.5;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin: 7px 0px 3px;
     margin-bottom: 20px;
 }
@@ -106,6 +113,12 @@ span{
     text-transform: uppercase;
     padding: 10px;
     border-radius: 8px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+.about-content a:hover{
+    background-color: white;
+    color: black;
 }
 /* Skills Section */
 .skills {
@@ -165,9 +178,9 @@ span{
 }
 .project-images p{
     text-align: center;
-    margin: 20px 70px;
+    margin: 0px 70px 20px 70px;
     background-color: black;
-    padding: 5px;
+    padding: 5px 12px;
     border-radius: 10px;
 }
 .project-images p a{
@@ -189,7 +202,8 @@ span{
 .contact h2{
     text-align: center;
     font-size:30px;
-    margin:10px 0px 15px 0px;
+    margin-top:10px;
+    margin-bottom:15px;
 }
 .contact .input-box {
     display:flex;
@@ -198,14 +212,14 @@ span{
     justify-content: center;
 }
 .contact form {
-    width: 300px;
+    width: 400px;
 }
 .contact form label {
     font-size: 18px;
 }
 .contact form input,
 .contact form textarea {
-    padding: 10px 12px;
+    padding: 15px 17px;
     border-radius: 4px;
 }
 .contact .button {
@@ -218,32 +232,51 @@ span{
     color: white;
     cursor: pointer;
 }
-.socials {
+.contact .button:hover {
+    background-color: white;
+    color: black;
+}
+/* Footer section */
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: white;
+}
+.footer .socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer .socials a{
+    /* border: 2px solid turquoise; */
+    margin: 0 8px;
+    /* line-height: 38px; */
     text-align: center;
 }
-.socials ul{
-    margin:25px 0px;
-    display: flex;
-    gap:15px;
+.footer .list{
     list-style: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    padding: 0 12px;
 }
-.socials a{
-    font-size: 16px;
-    color: white;
-    font-weight: 400;
+.footer .list a{
+    color: black;
+    font-weight: 700;
 }
-.socials a:hover {
+.footer .list a:hover {
     color: dodgerblue;
     text-decoration: underline;
 }
 .socials h3{
-    margin:20px;
+    margin:20px 20px 0px 20px;
 }
-.footer p{
+.footer .copyright{
     color:dodgerblue;
     text-align: center;
-    padding: 15px 12px;
+    padding: 12px;
     font-size: 20px;
     font-weight: 900;
 }

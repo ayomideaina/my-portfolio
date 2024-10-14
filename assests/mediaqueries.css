@@ -70,6 +70,12 @@
         width: 250px;
         margin: 0 auto;
     }
+    .footer.list a{
+        font-size: 11px;
+    }
+    .footer .copyright{
+        font-size: 13px;
+    }
 }
 
 /* for smaller devices */

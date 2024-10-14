@@ -133,25 +133,37 @@ span{
 .skill-content p{
     font-size: 20px;
     font-weight: 800;
-    margin:10px 0px  20px;
+    margin:15px 0px 10px  10px;
     text-align: left;
 }
+.skill-content .techskill li{
+    list-style-type: none;
+}
+
 .skill-content ul{
     padding:10px;
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    flex-direction: column;
+    gap:20px;
     font-size:17px;
 }
-.skill-content h3{
-    margin: 20px 0px;
-}
-.skill-level {
-    color: #4CAF50;
-    font-weight: bold;
-    margin-left: 10px;
+
+.skill-bar {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 5px;
 }
 
+.progress {
+    background-color: dodgerblue;
+    height:90%;
+    border-radius: 5px;
+    width: 0; /* Start with 0 width and grow using JavaScript */
+    transition: width 2s ease-in-out;
+}
 
 /* Project section */
 .project {

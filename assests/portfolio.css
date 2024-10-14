@@ -146,6 +146,13 @@ span{
 .skill-content h3{
     margin: 20px 0px;
 }
+.skill-level {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
 /* Project section */
 .project {
     max-width:100%;
@@ -265,6 +272,7 @@ span{
 .footer .list a{
     color: black;
     font-weight: 700;
+    font-size: 13px;
 }
 .footer .list a:hover {
     color: dodgerblue;
@@ -277,6 +285,6 @@ span{
     color:dodgerblue;
     text-align: center;
     padding: 12px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 900;
 }

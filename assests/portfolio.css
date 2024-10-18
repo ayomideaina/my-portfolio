@@ -122,8 +122,8 @@ span{
 }
 /* Skills Section */
 .skills {
-    /* width: 100%; */
-    margin:0px 35px;
+    width: 100%;
+    /* margin:0px 35px; */
     padding: 20px;
 }
 .skill-content h2 {
@@ -139,9 +139,12 @@ span{
 .skill-content .techskill li{
     list-style-type: none;
 }
+.techskill{
+    width: 90%;
+}
 
 .skill-content ul{
-    padding:10px;
+    padding:20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -158,7 +161,7 @@ span{
 }
 
 .progress {
-    background-color: dodgerblue;
+    background-color: rgb(118, 178, 238);
     height:90%;
     border-radius: 5px;
     width: 0; /* Start with 0 width and grow using JavaScript */
@@ -270,7 +273,7 @@ span{
 }
 .footer .socials a{
     /* border: 2px solid turquoise; */
-    margin: 0 8px;
+    margin: 0 10px;
     /* line-height: 38px; */
     text-align: center;
 }

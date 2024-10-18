@@ -1,5 +1,5 @@
 const roles = [
-    'an Aspiring Frontend Developer',
+    'a Frontend Developer',
     'a Web Developer',
     'a Technical Writer',
     'an Instructor'
@@ -14,8 +14,7 @@ function changeRole() {
     roleIndex = (roleIndex + 1) % roles.length;
 }
 
-// Call changeRole every 800ms to switch roles
-setInterval(changeRole, 800);
+setInterval(changeRole, 2000);
 
 // skills level
 const skillLevels = {
